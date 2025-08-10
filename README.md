@@ -37,3 +37,4 @@
 ### 安装依赖
 ```bash
 pip install langchain streamlit
+```
