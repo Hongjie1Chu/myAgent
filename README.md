@@ -38,3 +38,5 @@
 ```bash
 pip install langchain streamlit
 ```
+智谱开放平台(https://open.bigmodel.cn)注册账号并复制api_key到文件合适位置
+
