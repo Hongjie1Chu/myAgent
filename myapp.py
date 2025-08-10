@@ -10,14 +10,14 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 import os
-api_key = 'ce41d5431d384915ac70d24c61a62516.PCLogAY2BQZBd5RQ'
+api_key = 'your api key'
 os.environ['ZHIPUAI_API_KEY'] = api_key
 # 初始化模型和向量数据库（缓存避免重复初始化）
 @st.cache_resource
 def init_rag_chain():
     zhipuai_model = ZhipuaiLLM(model_name="glm-4-plus", temperature=0.1)
     embedding = ZhipuAIEmbeddings()
-    persist_directory = '/Users/chuhongjie/Desktop/leetcode/myAgent/mydb'
+    persist_directory = 'path/to/myAgent/mydb'
     vectordb = Chroma(
         embedding_function=embedding,
         persist_directory=persist_directory
