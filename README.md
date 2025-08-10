@@ -40,3 +40,7 @@ pip install langchain streamlit
 ```
 [智谱开放平台](https://open.bigmodel.cn)注册账号并复制api_key到文件合适位置
 
+## 🔗参考链接
+1. [Datawhale课程](https://github.com/datawhalechina/llm-universe)
+2. [LangChain文档](https://python.langchain.ac.cn/docs/introduction/) [LangChain官方文档](https://docs.langchain.com.cn/docs/introduction/)
+3. [智谱开放平台](https://open.bigmodel.cn)
