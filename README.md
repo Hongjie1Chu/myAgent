@@ -39,6 +39,10 @@
 pip install langchain streamlit
 ```
 [智谱开放平台](https://open.bigmodel.cn)注册账号并复制api_key到文件合适位置
+### 启动myapp
+```bash
+streamlit run myapp.py
+```
 
 ## 🔗参考链接
 1. [Datawhale课程](https://github.com/datawhalechina/llm-universe)
